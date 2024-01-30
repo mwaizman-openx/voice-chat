@@ -9,7 +9,7 @@ const execAsync = util.promisify(exec);
 
 // Configure OpenAI with environment variable for API key
 const openai = new OpenAI({
-  apiKey: "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", // Use environment variable for API key
+  apiKey: "", // Use environment variable for API key
 });
 let messageHistory = []; // Store message history
 
